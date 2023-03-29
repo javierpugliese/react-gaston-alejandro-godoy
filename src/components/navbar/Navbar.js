@@ -6,7 +6,7 @@ import './Style.css';
 
 const Navbar = () => {
   return (
-    <header>
+    <header className="navbar-header-fixed">
       <nav className="navbar navbar-expand-lg bg-white">
         <div className="container-fluid">
           <img src={logo} alt="logo"/>
